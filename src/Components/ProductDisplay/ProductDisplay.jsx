@@ -3,7 +3,7 @@ import "./ProductDisplay.css";
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
 const ProductDisplay = (props) => {
-  const { product } = props;
+  // const { product } = props;
   return (
     <div className="productdisplay">
       <div className="prodcutdisplay-left">
@@ -48,10 +48,10 @@ const ProductDisplay = (props) => {
         </div>
         <button>ADD TO CART</button>
         <p className="productdisplay-right-category">
-          <span>Category :</span>Women, T-Shirt, Crop Top
+          <span>Category :</span> Women, T-Shirt, Crop Top
         </p>
         <p className="productdisplay-right-category">
-          <span>Tags :</span>Modern, Latest
+          <span>Tags :</span> Modern, Latest
         </p>
       </div>
     </div>
